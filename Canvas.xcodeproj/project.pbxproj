@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		915F9E871A9EC63D00B46973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 915F9E861A9EC63D00B46973 /* main.m */; };
 		915F9E8A1A9EC63D00B46973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 915F9E891A9EC63D00B46973 /* AppDelegate.m */; };
-		915F9E8D1A9EC63D00B46973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915F9E8C1A9EC63D00B46973 /* ViewController.m */; };
-		915F9E901A9EC63D00B46973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915F9E8E1A9EC63D00B46973 /* Main.storyboard */; };
 		915F9E921A9EC63D00B46973 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915F9E911A9EC63D00B46973 /* Images.xcassets */; };
 		915F9E951A9EC63D00B46973 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915F9E931A9EC63D00B46973 /* LaunchScreen.xib */; };
 		915F9EA11A9EC63D00B46973 /* CanvasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 915F9EA01A9EC63D00B46973 /* CanvasTests.m */; };
+		915F9EB11A9EC6A100B46973 /* excited@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EAA1A9EC6A100B46973 /* excited@2x.png */; };
+		915F9EB21A9EC6A100B46973 /* happy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EAB1A9EC6A100B46973 /* happy@2x.png */; };
+		915F9EB31A9EC6A100B46973 /* sad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EAC1A9EC6A100B46973 /* sad@2x.png */; };
+		915F9EB41A9EC6A100B46973 /* tongue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EAD1A9EC6A100B46973 /* tongue@2x.png */; };
+		915F9EB51A9EC6A100B46973 /* wink@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EAE1A9EC6A100B46973 /* wink@2x.png */; };
+		915F9EB61A9EC6A100B46973 /* dead@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EAF1A9EC6A100B46973 /* dead@2x.png */; };
+		915F9EB71A9EC6A100B46973 /* down_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EB01A9EC6A100B46973 /* down_arrow.png */; };
+		915F9EBB1A9EC6E300B46973 /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 915F9EB91A9EC6E300B46973 /* CanvasViewController.m */; };
+		915F9EBC1A9EC6E300B46973 /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 915F9EBA1A9EC6E300B46973 /* CanvasViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,21 @@
 		915F9E861A9EC63D00B46973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		915F9E881A9EC63D00B46973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		915F9E891A9EC63D00B46973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		915F9E8B1A9EC63D00B46973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		915F9E8C1A9EC63D00B46973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		915F9E8F1A9EC63D00B46973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		915F9E911A9EC63D00B46973 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		915F9E941A9EC63D00B46973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		915F9E9A1A9EC63D00B46973 /* CanvasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanvasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		915F9E9F1A9EC63D00B46973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		915F9EA01A9EC63D00B46973 /* CanvasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanvasTests.m; sourceTree = "<group>"; };
+		915F9EAA1A9EC6A100B46973 /* excited@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "excited@2x.png"; sourceTree = "<group>"; };
+		915F9EAB1A9EC6A100B46973 /* happy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy@2x.png"; sourceTree = "<group>"; };
+		915F9EAC1A9EC6A100B46973 /* sad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sad@2x.png"; sourceTree = "<group>"; };
+		915F9EAD1A9EC6A100B46973 /* tongue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tongue@2x.png"; sourceTree = "<group>"; };
+		915F9EAE1A9EC6A100B46973 /* wink@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wink@2x.png"; sourceTree = "<group>"; };
+		915F9EAF1A9EC6A100B46973 /* dead@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dead@2x.png"; sourceTree = "<group>"; };
+		915F9EB01A9EC6A100B46973 /* down_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down_arrow.png; sourceTree = "<group>"; };
+		915F9EB81A9EC6E300B46973 /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		915F9EB91A9EC6E300B46973 /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		915F9EBA1A9EC6E300B46973 /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +95,21 @@
 		915F9E831A9EC63D00B46973 /* Canvas */ = {
 			isa = PBXGroup;
 			children = (
+				915F9EAA1A9EC6A100B46973 /* excited@2x.png */,
+				915F9EAB1A9EC6A100B46973 /* happy@2x.png */,
+				915F9EAC1A9EC6A100B46973 /* sad@2x.png */,
+				915F9EAD1A9EC6A100B46973 /* tongue@2x.png */,
+				915F9EAE1A9EC6A100B46973 /* wink@2x.png */,
+				915F9EAF1A9EC6A100B46973 /* dead@2x.png */,
+				915F9EB01A9EC6A100B46973 /* down_arrow.png */,
 				915F9E881A9EC63D00B46973 /* AppDelegate.h */,
 				915F9E891A9EC63D00B46973 /* AppDelegate.m */,
-				915F9E8B1A9EC63D00B46973 /* ViewController.h */,
-				915F9E8C1A9EC63D00B46973 /* ViewController.m */,
-				915F9E8E1A9EC63D00B46973 /* Main.storyboard */,
 				915F9E911A9EC63D00B46973 /* Images.xcassets */,
 				915F9E931A9EC63D00B46973 /* LaunchScreen.xib */,
 				915F9E841A9EC63D00B46973 /* Supporting Files */,
+				915F9EB81A9EC6E300B46973 /* CanvasViewController.h */,
+				915F9EB91A9EC6E300B46973 /* CanvasViewController.m */,
+				915F9EBA1A9EC6E300B46973 /* CanvasViewController.xib */,
 			);
 			path = Canvas;
 			sourceTree = "<group>";
@@ -199,9 +220,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915F9E901A9EC63D00B46973 /* Main.storyboard in Resources */,
+				915F9EB51A9EC6A100B46973 /* wink@2x.png in Resources */,
+				915F9EB31A9EC6A100B46973 /* sad@2x.png in Resources */,
+				915F9EB21A9EC6A100B46973 /* happy@2x.png in Resources */,
+				915F9EB61A9EC6A100B46973 /* dead@2x.png in Resources */,
+				915F9EBC1A9EC6E300B46973 /* CanvasViewController.xib in Resources */,
+				915F9EB11A9EC6A100B46973 /* excited@2x.png in Resources */,
 				915F9E951A9EC63D00B46973 /* LaunchScreen.xib in Resources */,
+				915F9EB41A9EC6A100B46973 /* tongue@2x.png in Resources */,
 				915F9E921A9EC63D00B46973 /* Images.xcassets in Resources */,
+				915F9EB71A9EC6A100B46973 /* down_arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +247,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				915F9E8D1A9EC63D00B46973 /* ViewController.m in Sources */,
 				915F9E8A1A9EC63D00B46973 /* AppDelegate.m in Sources */,
 				915F9E871A9EC63D00B46973 /* main.m in Sources */,
+				915F9EBB1A9EC6E300B46973 /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +272,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		915F9E8E1A9EC63D00B46973 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				915F9E8F1A9EC63D00B46973 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		915F9E931A9EC63D00B46973 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CanvasViewController.h
 //  Canvas
 //
 //  Created by Miles Spielberg on 2/25/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CanvasViewController : UIViewController
 
 @end
-
